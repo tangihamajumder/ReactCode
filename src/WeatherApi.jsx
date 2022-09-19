@@ -58,7 +58,7 @@ const WeatherApi = () => {
             style={{ width: 60, height: 60 }}
           />
         </div>
-        <h1>{query}</h1>
+        <h6>{query}</h6>
         {/* <h2>{place}</h2> */}
         <h4>{temparature}°C </h4>
         <h5>{desc}</h5>
